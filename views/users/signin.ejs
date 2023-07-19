@@ -1,0 +1,36 @@
+<%- include ("../partials/header") %> <%- include ("../partials/categories-navbar")%>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 m-auto">
+          <h1 class="mt-4 mb-4">Sign In Page</h1>
+          <!-- Flash message -->
+          <% if(errorOccured) {%>
+            <div id="flash-msg" class="alert alert-danger">
+              <%=errorMsg %>
+            </div>
+            <%}%>
+              <form action="/users/signin" method="POST">
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" name="email" id="email" />
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" name="password" id="password" />
+                </div>
+                <button type="submit" class="btn btn-primary button-style">
+                  Sign In
+                </button>
+                <p class="mt-3">
+                  <a href="/users/auth/google" class="btn btn-danger"><span class="fa fa-google"></span> Continue with Google</a>
+                </p>
+              </form>
+              <p class="mt-3">
+                Don't have an account? <a href="/users/signup"> Sign Up!</a>
+              </p>
+        </div>
+      </div>
+    </div>
+
+    <%- include ("../partials/footer") %>
