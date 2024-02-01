@@ -13,7 +13,7 @@ This is a simple online shopping store built using Node.js, Express.js, MongoDB,
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/online-shopping-store.git
+    git clone https://github.com/hzaheer48/online-shopping-store.git
     cd online-shopping-store
     ```
 2. Install dependencies:
