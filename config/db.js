@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
   try {
-    mongoose.connect("mongodb://localhost:27017/shop-online").then(
+    mongoose.connect("mongodb://0.0.0.0:27017/shop-online").then(
     ()=>{
         console.log("Connection is successful.")
     }).catch((err)=>{
