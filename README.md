@@ -49,14 +49,14 @@ This is a simple online shopping store built using Node.js, Express.js, MongoDB,
 - **app.js:** Main application file containing Express setup.
 
 ## Screenshots
-![Alt text](/screenshots/screenshot_8.png?raw=true "Optional Title")
-![Alt text](/screenshots/screenshot_7.png?raw=true "Optional Title")
-![Alt text](/screenshots/screenshot_6.png?raw=true "Optional Title")
-![Alt text](/screenshots/screenshot_5.png?raw=true "Optional Title")
-![Alt text](/screenshots/screenshot_4.png?raw=true "Optional Title")
-![Alt text](/screenshots/screenshot_3.png?raw=true "Optional Title")
-![Alt text](/screenshots/screenshot_2.png?raw=true "Optional Title")
 ![Alt text](/screenshots/screenshot_1.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_2.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_3.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_4.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_5.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_6.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_7.png?raw=true "Optional Title")
+![Alt text](/screenshots/screenshot_8.png?raw=true "Optional Title")
 
 
 ## Contributing
